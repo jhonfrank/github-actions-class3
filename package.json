@@ -1,0 +1,17 @@
+{
+  "name": "node-static-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest",
+    "build": "node src/build.js"
+  },
+  "author": "jhonfrank",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  }
+}
